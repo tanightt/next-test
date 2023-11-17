@@ -1,0 +1,81 @@
+.main {
+  padding-top: 120px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.addBtn {
+  width: 300px;
+  padding: 14px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.125;
+  background: linear-gradient(0deg, #884dfe 0%, #884dfe 100%),
+    linear-gradient(104deg, #a139fd 11.26%, #50bdfc 90.79%);
+}
+
+@media screen and (min-width: 680px) {
+  .addBtn {
+    width: 638px;
+  }
+}
+
+.createInputContainer {
+  position: relative;
+}
+
+.createInput {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  height: 25px;
+  color: #fff;
+  background-color: #24252e;
+  border: none;
+}
+
+.categoriesList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.changeBtnContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  background: #2e2f3c;
+}
+
+.saveBtn {
+  display: flex;
+  width: 500px;
+  padding: 22px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #45cb54;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.08);
+}
+
+.cancelBtn {
+  width: 500px;
+  padding: 22px 0px;
+  border-radius: 4px;
+  border: 3px solid #424454;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.08);
+}
